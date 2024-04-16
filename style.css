@@ -1,0 +1,66 @@
+/* header */
+
+.navbar-brand img {
+    max-width: 80px; 
+    height: auto; 
+}
+
+.navbar-brand {
+    margin-right: 30px;
+}
+
+.input-group{
+    margin-top: 16px;
+}
+
+.navbar-search {
+    flex-grow: 1; 
+}
+
+.form-control {
+    background-color: #F7E7FF;
+    border: none;
+    border-radius: 20px 0px 0px 20px !important;
+    padding: 10px;
+    padding-left: 20px;
+    padding-bottom: 11px;
+}
+
+.form-control:focus {
+    box-shadow: none !important;
+    background-color: #F7E7FF;
+    border-color: none;
+}
+
+.btn-outline-success {
+    border: none !important;
+    background-color: #F7E7FF;
+    border-radius: 0 20px 20px 0 !important;
+    margin-right: 30px;
+    padding-bottom: 7px;
+}
+.btn-outline-success:hover {
+    background-color: #F7E7FF;
+}
+.btn-outline-success i {
+    color: rgb(53, 0, 88);
+}
+
+.btn-primary {
+    background-color: transparent !important;
+    border-color: transparent !important;
+    margin-top: 20px;
+}
+.btn-primary:hover {
+    background-color: transparent !important;
+    border-color: transparent !important;
+}
+
+.btn-primary i {
+color: black;
+margin-right: 20px;
+}
+
+.fa-cart-shopping {
+    font-size: 24px; 
+}
