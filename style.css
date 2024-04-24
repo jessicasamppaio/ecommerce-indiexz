@@ -119,12 +119,17 @@ margin-right: 20px;
     color:blueviolet;
     border-width: 2px;
 }
-
-.section-mais-vendidos .card {
-    max-width: 300px; 
+.product-img {
+    width: 100%; 
+    height: auto; 
+    transition: transform 0.3s ease; 
+    border-radius: 10%
 }
 
-.card-body .btn-primary {
-    display: inline-block; 
-    margin-top: 10px; 
+.product-img:hover {
+    transform: scale(1.1); 
+}
+
+.product-link {
+    display: block; 
 }
