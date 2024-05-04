@@ -170,3 +170,99 @@ margin-right: 20px;
     border-radius: 60px;
 }
 
+/* Sessão de Lançamentos */
+
+.section-lancamentos {
+    margin-top: -70px;
+    margin-bottom: 70px;
+}
+
+.section-lancamentos img {
+    max-width: 90%;
+    height: auto;
+    border-radius: 50px;
+}
+
+.titulo-lancamentos {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333; 
+}
+
+.section-lancamentos hr {
+    margin: 10px auto; 
+    width: 75%;
+    color:blueviolet;
+    border-width: 2px;
+}
+
+.section-lancamentos .fa-heart {
+    font-size: 2rem;
+    margin-top: 30px; 
+}
+
+.descricao-lancamentos {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+.btn-primary.custom-btn {
+    background-color: #FFA8D9 !important; 
+    color: #000000; 
+    border: none;
+    padding: 12px 100px;
+    border-radius: 50px;
+    transition: background-color 0.3s;
+    margin-top: 20px;
+    font-size: 1.2rem;
+}
+
+.btn-primary.custom-btn:hover {
+    background-color: #ffc0e4 !important;
+    color: #000000;
+}
+
+/* Footer */
+
+.footer {
+    background-color: #e3b1fc ;
+    color: #000000;
+    padding: 50px 0;
+    
+}
+
+
+
+.footer h5 {
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer ul li {
+    margin-bottom: 10px;
+}
+
+.footer ul li a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.footer ul li a:hover {
+    text-decoration: underline;
+    color: #ff0090;
+}
+
+.footer .fab {
+    margin-right: 10px;
+}
+
+.logo {
+    max-width: 60%;
+    height: auto;
+}
